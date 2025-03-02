@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[344],{1842:(_,n,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Amindu_Bhashana/_meta",function(){return u(5524)}])},5524:(_,n,u)=>{"use strict";u.r(n),u.d(n,{__N_SSG:()=>a,default:()=>e});var a=!0;let e=()=>null}},_=>{var n=n=>_(_.s=n);_.O(0,[636,593,792],()=>n(1842)),_N_E=_.O()}]);
