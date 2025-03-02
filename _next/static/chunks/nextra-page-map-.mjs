@@ -1,6 +1,7 @@
 import meta from "../../../pages/_meta.js";
 import Amindu_Bhashana_meta from "../../../pages/Amindu_Bhashana/_meta.js";
 import component_meta from "../../../pages/component/_meta.js";
+import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
 export const pageMap = [{
   data: meta
@@ -42,6 +43,18 @@ export const pageMap = [{
     frontMatter: {
       "sidebarTitle": "Mydoc"
     }
+  }, {
+    name: "sample",
+    route: "/component/sample",
+    children: [{
+      data: component_sample_meta
+    }, {
+      name: "sample",
+      route: "/component/sample/sample",
+      frontMatter: {
+        "sidebarTitle": "Sample"
+      }
+    }]
   }]
 }, {
   name: "index",
@@ -66,8 +79,8 @@ export const pageMap = [{
     name: "me",
     route: "/Pawan_Pinsara/me",
     frontMatter: {
-      "title": "Pawan's Profile",
-      "description": "Learn more about Pawan, a passionate Computer Science student at UOK."
+      "title": "Pawan Perera's Profile",
+      "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
     }
   }]
 }];
