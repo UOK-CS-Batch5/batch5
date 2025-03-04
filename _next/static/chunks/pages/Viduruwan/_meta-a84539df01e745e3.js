@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[980],{2514:(_,u,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Viduruwan/_meta",function(){return e(1872)}])},1872:(_,u,e)=>{"use strict";e.r(u),e.d(u,{__N_SSG:()=>n,default:()=>a});var n=!0;let a=()=>null}},_=>{var u=u=>_(_.s=u);_.O(0,[636,593,792],()=>u(2514)),_N_E=_.O()}]);

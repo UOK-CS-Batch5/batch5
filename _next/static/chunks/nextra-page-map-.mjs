@@ -3,6 +3,7 @@ import Amindu_Bhashana_meta from "../../../pages/Amindu_Bhashana/_meta.js";
 import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
+import Viduruwan_meta from "../../../pages/Viduruwan/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
@@ -81,6 +82,26 @@ export const pageMap = [{
     frontMatter: {
       "title": "Pawan Perera's Profile",
       "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
+    }
+  }]
+}, {
+  name: "Viduruwan",
+  route: "/Viduruwan",
+  children: [{
+    data: Viduruwan_meta
+  }, {
+    name: "about",
+    route: "/Viduruwan/about",
+    frontMatter: {
+      "title": "About Viduruwan",
+      "description": "Learn more about Viduruwan, a passionate Computer Science student at the University of Kelaniya."
+    }
+  }, {
+    name: "me",
+    route: "/Viduruwan/me",
+    frontMatter: {
+      "title": "Viduruwan's Profile",
+      "description": "Learn more about Viduruwan, a passionate Computer Science student at UOK."
     }
   }]
 }];
