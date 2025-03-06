@@ -4,6 +4,7 @@ import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Mihitha_Wanniarachchi_meta from "../../../pages/Mihitha_Wanniarachchi/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
+import Tharusha_meta from "../../../pages/Tharusha/_meta.js";
 import Viduruwan_meta from "../../../pages/Viduruwan/_meta.js";
 export const pageMap = [{
   data: meta
@@ -96,6 +97,19 @@ export const pageMap = [{
     frontMatter: {
       "title": "Pawan Perera's Profile",
       "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
+    }
+  }]
+}, {
+  name: "Tharusha",
+  route: "/Tharusha",
+  children: [{
+    data: Tharusha_meta
+  }, {
+    name: "about",
+    route: "/Tharusha/about",
+    frontMatter: {
+      "title": "Meet Tharusha",
+      "description": "Discover Tharusha's journey in Data Science and Web Development."
     }
   }]
 }, {
