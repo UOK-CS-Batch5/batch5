@@ -77,13 +77,6 @@ export const pageMap = [{
       "title": "Meet Mihitha",
       "description": "Get to know Mihitha, a Computer Science student at the University of Kelaniya."
     }
-  }, {
-    name: "me",
-    route: "/Mihitha_Wanniarachchi/me",
-    frontMatter: {
-      "title": "Mihitha Wanniarachchi - Data Analyst Enthusiast",
-      "description": "Exploring data-driven solutions and analytics with Mihitha Wanniarachchi."
-    }
   }]
 }, {
   name: "Pawan_Pinsara",
