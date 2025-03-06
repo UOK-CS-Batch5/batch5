@@ -88,13 +88,6 @@ export const pageMap = [{
     name: "about",
     route: "/Pawan_Pinsara/about",
     frontMatter: {
-      "title": "About Pawan",
-      "description": "Learn more about Pawan, a passionate Computer Science student at the University of Kelaniya."
-    }
-  }, {
-    name: "me",
-    route: "/Pawan_Pinsara/me",
-    frontMatter: {
       "title": "Pawan Perera's Profile",
       "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
     }
