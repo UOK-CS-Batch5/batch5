@@ -2,6 +2,7 @@ import meta from "../../../pages/_meta.js";
 import Amindu_Bhashana_meta from "../../../pages/Amindu_Bhashana/_meta.js";
 import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
+import Mihitha_Wanniarachchi_meta from "../../../pages/Mihitha_Wanniarachchi/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
 import Viduruwan_meta from "../../../pages/Viduruwan/_meta.js";
 export const pageMap = [{
@@ -64,6 +65,26 @@ export const pageMap = [{
     "title": "Introduction",
     "description": "Welcome to the official website of UOK CS 5th Batch"
   }
+}, {
+  name: "Mihitha_Wanniarachchi",
+  route: "/Mihitha_Wanniarachchi",
+  children: [{
+    data: Mihitha_Wanniarachchi_meta
+  }, {
+    name: "about",
+    route: "/Mihitha_Wanniarachchi/about",
+    frontMatter: {
+      "title": "Meet Mihitha",
+      "description": "Get to know Mihitha, a Computer Science student at the University of Kelaniya."
+    }
+  }, {
+    name: "me",
+    route: "/Mihitha_Wanniarachchi/me",
+    frontMatter: {
+      "title": "Mihitha Wanniarachchi - Data Analyst Enthusiast",
+      "description": "Exploring data-driven solutions and analytics with Mihitha Wanniarachchi."
+    }
+  }]
 }, {
   name: "Pawan_Pinsara",
   route: "/Pawan_Pinsara",
