@@ -1,5 +1,6 @@
 import meta from "../../../pages/_meta.js";
 import Amindu_Bhashana_meta from "../../../pages/Amindu_Bhashana/_meta.js";
+import Apeksha_meta from "../../../pages/Apeksha/_meta.js";
 import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Mihitha_Wanniarachchi_meta from "../../../pages/Mihitha_Wanniarachchi/_meta.js";
@@ -33,6 +34,19 @@ export const pageMap = [{
     frontMatter: {
       "title": "Amindu's Profile",
       "description": "Learn more about Pawan, a passionate Computer Science student at UOK."
+    }
+  }]
+}, {
+  name: "Apeksha",
+  route: "/Apeksha",
+  children: [{
+    data: Apeksha_meta
+  }, {
+    name: "about",
+    route: "/Apeksha/about",
+    frontMatter: {
+      "title": "Apeksha's Profile",
+      "description": "Learn more about Apeksha, a passionate AI undergraduate specializing in Artificial Intelligence at the University of Kelaniya."
     }
   }]
 }, {
