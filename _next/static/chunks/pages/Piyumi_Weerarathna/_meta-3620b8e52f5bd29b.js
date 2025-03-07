@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[971],{5634:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Piyumi_Weerarathna/_meta",function(){return u(8843)}])},8843:(_,e,u)=>{"use strict";u.r(e),u.d(e,{__N_SSG:()=>a,default:()=>n});var a=!0;let n=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(5634)),_N_E=_.O()}]);
