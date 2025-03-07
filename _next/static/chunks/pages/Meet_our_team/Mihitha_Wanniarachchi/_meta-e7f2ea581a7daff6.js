@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[741],{5172:(_,e,a)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Mihitha_Wanniarachchi/_meta",function(){return a(3227)}])},3227:(_,e,a)=>{"use strict";a.r(e),a.d(e,{__N_SSG:()=>n,default:()=>t});var n=!0;let t=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(5172)),_N_E=_.O()}]);

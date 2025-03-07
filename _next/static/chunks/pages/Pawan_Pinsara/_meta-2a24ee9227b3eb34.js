@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[523],{7432:(_,a,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Pawan_Pinsara/_meta",function(){return n(6061)}])},6061:(_,a,n)=>{"use strict";n.r(a),n.d(a,{__N_SSG:()=>e,default:()=>u});var e=!0;let u=()=>null}},_=>{var a=a=>_(_.s=a);_.O(0,[636,593,792],()=>a(7432)),_N_E=_.O()}]);

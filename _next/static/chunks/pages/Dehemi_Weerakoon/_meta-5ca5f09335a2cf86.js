@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[513],{7086:(_,e,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Dehemi_Weerakoon/_meta",function(){return n(5837)}])},5837:(_,e,n)=>{"use strict";n.r(e),n.d(e,{__N_SSG:()=>u,default:()=>a});var u=!0;let a=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(7086)),_N_E=_.O()}]);

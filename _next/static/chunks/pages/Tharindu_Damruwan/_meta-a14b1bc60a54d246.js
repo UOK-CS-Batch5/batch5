@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[60],{674:(_,u,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Tharindu_Damruwan/_meta",function(){return n(3168)}])},3168:(_,u,n)=>{"use strict";n.r(u),n.d(u,{__N_SSG:()=>a,default:()=>e});var a=!0;let e=()=>null}},_=>{var u=u=>_(_.s=u);_.O(0,[636,593,792],()=>u(674)),_N_E=_.O()}]);

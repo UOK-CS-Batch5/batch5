@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[980],{9130:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Tharusha/_meta",function(){return u(4378)}])},4378:(_,e,u)=>{"use strict";u.r(e),u.d(e,{__N_SSG:()=>a,default:()=>t});var a=!0;let t=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(9130)),_N_E=_.O()}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[612],{1938:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Dehemi_Weerakoon/_meta",function(){return u(9290)}])},9290:(_,e,u)=>{"use strict";u.r(e),u.d(e,{__N_SSG:()=>n,default:()=>t});var n=!0;let t=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(1938)),_N_E=_.O()}]);

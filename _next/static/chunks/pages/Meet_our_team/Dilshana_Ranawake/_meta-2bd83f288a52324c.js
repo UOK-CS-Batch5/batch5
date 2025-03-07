@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[841],{7616:(_,e,a)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Dilshana_Ranawake/_meta",function(){return a(5947)}])},5947:(_,e,a)=>{"use strict";a.r(e),a.d(e,{__N_SSG:()=>n,default:()=>u});var n=!0;let u=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[636,593,792],()=>e(7616)),_N_E=_.O()}]);
