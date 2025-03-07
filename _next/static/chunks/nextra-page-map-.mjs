@@ -3,6 +3,7 @@ import Amindu_Bhashana_meta from "../../../pages/Amindu_Bhashana/_meta.js";
 import Apeksha_meta from "../../../pages/Apeksha/_meta.js";
 import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
+import Dilshana_Ranawake_meta from "../../../pages/Dilshana_Ranawake/_meta.js";
 import Mihitha_Wanniarachchi_meta from "../../../pages/Mihitha_Wanniarachchi/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
 import Tharusha_meta from "../../../pages/Tharusha/_meta.js";
@@ -72,6 +73,26 @@ export const pageMap = [{
         "sidebarTitle": "Sample"
       }
     }]
+  }]
+}, {
+  name: "Dilshana_Ranawake",
+  route: "/Dilshana_Ranawake",
+  children: [{
+    data: Dilshana_Ranawake_meta
+  }, {
+    name: "about",
+    route: "/Dilshana_Ranawake/about",
+    frontMatter: {
+      "title": "About Dilshana",
+      "description": "Learn more about Dilshana, a passionate Computer Science student at the University of Kelaniya."
+    }
+  }, {
+    name: "me",
+    route: "/Dilshana_Ranawake/me",
+    frontMatter: {
+      "title": "Dilshana's Profile",
+      "description": "Learn more about Dilshana, a passionate Computer Science student at UOK."
+    }
   }]
 }, {
   name: "index",
