@@ -4,6 +4,7 @@ import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Meet_our_team_meta from "../../../pages/Meet_our_team/_meta.js";
 import Meet_our_team_Amindu_Bhashana_meta from "../../../pages/Meet_our_team/Amindu_Bhashana/_meta.js";
 import Meet_our_team_Apeksha_meta from "../../../pages/Meet_our_team/Apeksha/_meta.js";
+import Meet_our_team_Chandima_Maduwantha_meta from "../../../pages/Meet_our_team/Chandima_Maduwantha/_meta.js";
 import Meet_our_team_Dehemi_Weerakoon_meta from "../../../pages/Meet_our_team/Dehemi_Weerakoon/_meta.js";
 import Meet_our_team_Dilshana_Ranawake_meta from "../../../pages/Meet_our_team/Dilshana_Ranawake/_meta.js";
 import Meet_our_team_Mihitha_Wanniarachchi_meta from "../../../pages/Meet_our_team/Mihitha_Wanniarachchi/_meta.js";
@@ -90,6 +91,19 @@ export const pageMap = [{
       "title": "About",
       "description": "Learn more about UOK CS 5th Batch and our journey"
     }
+  }, {
+    name: "Chandima_Maduwantha",
+    route: "/Meet_our_team/Chandima_Maduwantha",
+    children: [{
+      data: Meet_our_team_Chandima_Maduwantha_meta
+    }, {
+      name: "about",
+      route: "/Meet_our_team/Chandima_Maduwantha/about",
+      frontMatter: {
+        "title": "Chandima Maduwantha's Profile",
+        "description": "Learn more about Chandima Maduwantha, a passionate Computer Science Undergraduate specializing in Artificial Intelligence at the University of Kelaniya."
+      }
+    }]
   }, {
     name: "Dehemi_Weerakoon",
     route: "/Meet_our_team/Dehemi_Weerakoon",

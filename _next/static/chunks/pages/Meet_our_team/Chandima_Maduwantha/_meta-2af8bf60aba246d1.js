@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[736],{9958:(_,a,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Chandima_Maduwantha/_meta",function(){return e(2508)}])},2508:(_,a,e)=>{"use strict";e.r(a),e.d(a,{__N_SSG:()=>u,default:()=>n});var u=!0;let n=()=>null}},_=>{var a=a=>_(_.s=a);_.O(0,[636,593,792],()=>a(9958)),_N_E=_.O()}]);
