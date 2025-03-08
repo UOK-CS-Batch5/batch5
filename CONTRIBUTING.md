@@ -18,7 +18,7 @@ git clone https://github.com/your-username/batch5.git
 ```
 
 ### 3. Add Your Folder
-Go to the `pages` directory in your project, and create a folder with your name **(without spaces)**. For example, if your name is **Peter Mac**, the folder name should be `peter-mac`.
+Go to the `pages/Meet_our_team` directory in your project, and create a folder with your name **(without spaces)**. For example, if your name is **Peter Parker**, the folder name should be `Peter_Parker`.
 
 Inside this folder, create your **MDX files** (`about.mdx`, `me.mdx`, etc.) and an **_meta.js** file.
 
@@ -26,10 +26,11 @@ Inside this folder, create your **MDX files** (`about.mdx`, `me.mdx`, etc.) and 
 
 ```
 pages/
-  Peter_Parker/
-    about.mdx
-    me.mdx
-    _meta.js
+  Meet_our_team/
+    Peter_Parker/
+      about.mdx
+      me.mdx
+      _meta.js
 ```
 
 #### Example of `_meta.js`:
@@ -69,21 +70,21 @@ Go to the `pages` directory in your project, you'll see _meta.js. Inside of this
 
 ```
 pages/
-  Harry_Potter
-  Peter_Parker
-  _app.jsx
-  _meta.js
-  about.mdx
-  index.mdx
+  Meet_our_team/
+    Harry_Potter
+    Peter_Parker
+    _meta.js
+    batch.mdx
 ```
 
 #### Example of `_meta.js`:
 
 ```js
 const meta = {
-    index: "Introduction",
-    about: "About Us",
-    component: "Meet the Team",
+    batch: "About us",
+    '---': {
+        type: "separator",
+    },
     Pawan_Pinsara: "Pawan Pinsara",
     Peter_Parker: "Peter Parker",     # --> add your name here
 }
@@ -103,8 +104,7 @@ To run the tests, use the following command:
 npm test
 ```
 
-example: you'll see like,
-
+#### **Example Output:**
 ```bash
 pages\about.mdx: no issues found
 pages\component\mydoc.mdx: no issues found
@@ -115,7 +115,16 @@ pages\Peter_Parker\me.mdx: no issues found
 ✅ All tests passed successfully!
 ```
 
-Make sure there are no errors or warnings before proceeding.
+### **🔴 Note for Windows Users:**
+If you're on Windows, you may see the following warning:
+```
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+```
+This is expected and does not affect the tests. You can ignore this message.  
+
+Make sure there are no errors or warnings before proceeding. 🚀
+
 
 ### 7. Commit Your Changes
 
@@ -136,7 +145,7 @@ git push origin your-branch-name
 
 ### 9. Create a Pull Request
 
-Go to your forked repository on GitHub and create a pull request against the `dev` branch of the **UOK-CS-Batch5** organization’s repository.
+Go to your forked repository on GitHub and create a pull request against the `main` branch of the **UOK-CS-Batch5** organization’s repository.
 
 Provide a detailed description of the changes you've made, including your name and any files you've added.
 

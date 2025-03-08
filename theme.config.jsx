@@ -4,11 +4,26 @@ import { useConfig } from "nextra-theme-docs";
 
 const config = {
   logo: <Logo />,
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="UOK CS 5th Batch" />
+      <meta property="og:description" content="Meet the UOK CS 5th Batch students and learn about their skills and projects" />
+      <meta name="description" content="Meet the UOK CS 5th Batch students and learn about their skills and projects" />
+    </>
+  ),
   project: {
     name: "batch5",
     link: "https://github.com/UOK-CS-Batch5",
   },
   docsRepositoryBase: 'https://github.com/UOK-CS-Batch5/batch5/discussions',
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    autoCollapse: true,
+  },
+  toc: {
+    float: true,
+  },
   // banner: {
   //   key: 'Welcome to batch5',
   //   content: (
@@ -37,8 +52,8 @@ const config = {
     ),
   },
   editLink: {
-		content: null,
-	},
+    content: null,
+  },
 };
 
 export default config;

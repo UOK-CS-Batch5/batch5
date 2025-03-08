@@ -54,7 +54,7 @@ Open your browser and visit `http://localhost:3000` to view the site locally.
 We welcome contributions from everyone! Whether you're adding your own profile, fixing bugs, or improving the documentation, follow the steps below:
 
 1. Fork the repository.
-2. Create a folder in the `pages` directory with your name (no spaces).
+2. Create a folder in the `pages/Meet_our_team` directory with your name (no spaces).
 3. Add your details in the form of MDX files (`about.mdx`, `me.mdx`, etc.) and a `_meta.js` file.
 4. Run `npm test` to validate your changes.
 5. Submit a pull request.
