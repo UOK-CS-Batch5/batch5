@@ -122,13 +122,6 @@ export const pageMap = [{
         "title": "About Dilshana",
         "description": "Learn more about Dilshana, a passionate Computer Science student at the University of Kelaniya."
       }
-    }, {
-      name: "me",
-      route: "/Meet_our_team/Dilshana_Ranawake/me",
-      frontMatter: {
-        "title": "Dilshana's Profile",
-        "description": "Learn more about Dilshana, a passionate Computer Science student at UOK."
-      }
     }]
   }, {
     name: "Mihitha_Wanniarachchi",
