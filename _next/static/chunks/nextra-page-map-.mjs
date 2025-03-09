@@ -61,14 +61,7 @@ export const pageMap = [{
       route: "/Meet_our_team/Amindu_Bhashana/about",
       frontMatter: {
         "title": "About Amindu",
-        "description": "Learn more about Pawan, a passionate Computer Science student at the University of Kelaniya."
-      }
-    }, {
-      name: "me",
-      route: "/Meet_our_team/Amindu_Bhashana/me",
-      frontMatter: {
-        "title": "Amindu's Profile",
-        "description": "Learn more about Pawan, a passionate Computer Science student at UOK."
+        "description": "Learn more about Amindu, a passionate Computer Science student at the University of Kelaniya."
       }
     }]
   }, {
