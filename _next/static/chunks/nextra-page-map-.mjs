@@ -3,6 +3,7 @@ import component_meta from "../../../pages/component/_meta.js";
 import component_sample_meta from "../../../pages/component/sample/_meta.js";
 import Meet_our_team_meta from "../../../pages/Meet_our_team/_meta.js";
 import Meet_our_team_Amindu_Bhashana_meta from "../../../pages/Meet_our_team/Amindu_Bhashana/_meta.js";
+import Meet_our_team_Anjula_Handapangoda_meta from "../../../pages/Meet_our_team/Anjula_Handapangoda/_meta.js";
 import Meet_our_team_Apeksha_meta from "../../../pages/Meet_our_team/Apeksha/_meta.js";
 import Meet_our_team_Chandima_Maduwantha_meta from "../../../pages/Meet_our_team/Chandima_Maduwantha/_meta.js";
 import Meet_our_team_Dehemi_Weerakoon_meta from "../../../pages/Meet_our_team/Dehemi_Weerakoon/_meta.js";
@@ -62,6 +63,18 @@ export const pageMap = [{
       frontMatter: {
         "title": "About Amindu",
         "description": "Learn more about Amindu, a passionate Computer Science student at the University of Kelaniya."
+      }
+    }]
+  }, {
+    name: "Anjula_Handapangoda",
+    route: "/Meet_our_team/Anjula_Handapangoda",
+    children: [{
+      data: Meet_our_team_Anjula_Handapangoda_meta
+    }, {
+      name: "about",
+      route: "/Meet_our_team/Anjula_Handapangoda/about",
+      frontMatter: {
+        "sidebarTitle": "About"
       }
     }]
   }, {

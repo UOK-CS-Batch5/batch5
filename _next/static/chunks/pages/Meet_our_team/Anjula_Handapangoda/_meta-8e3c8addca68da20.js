@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[690],{5746:(_,a,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Anjula_Handapangoda/_meta",function(){return e(6442)}])},6442:(_,a,e)=>{"use strict";e.r(a),e.d(a,{__N_SSG:()=>n,default:()=>u});var n=!0;let u=()=>null}},_=>{var a=a=>_(_.s=a);_.O(0,[636,593,792],()=>a(5746)),_N_E=_.O()}]);
