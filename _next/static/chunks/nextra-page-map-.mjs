@@ -11,6 +11,7 @@ import Meet_our_team_Dilshana_Ranawake_meta from "../../../pages/Meet_our_team/D
 import Meet_our_team_Lakith_Randula_meta from "../../../pages/Meet_our_team/Lakith_Randula/_meta.js";
 import Meet_our_team_Mihitha_Wanniarachchi_meta from "../../../pages/Meet_our_team/Mihitha_Wanniarachchi/_meta.js";
 import Meet_our_team_Pawan_Pinsara_meta from "../../../pages/Meet_our_team/Pawan_Pinsara/_meta.js";
+import Meet_our_team_Piyumi_Nadeera_meta from "../../../pages/Meet_our_team/Piyumi_Nadeera/_meta.js";
 import Meet_our_team_Piyumi_Weerarathna_meta from "../../../pages/Meet_our_team/Piyumi_Weerarathna/_meta.js";
 import Meet_our_team_Tharindu_Damruwan_meta from "../../../pages/Meet_our_team/Tharindu_Damruwan/_meta.js";
 import Meet_our_team_Tharusha_meta from "../../../pages/Meet_our_team/Tharusha/_meta.js";
@@ -174,6 +175,19 @@ export const pageMap = [{
       frontMatter: {
         "title": "Pawan Perera's Profile",
         "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
+      }
+    }]
+  }, {
+    name: "Piyumi_Nadeera",
+    route: "/Meet_our_team/Piyumi_Nadeera",
+    children: [{
+      data: Meet_our_team_Piyumi_Nadeera_meta
+    }, {
+      name: "about",
+      route: "/Meet_our_team/Piyumi_Nadeera/about",
+      frontMatter: {
+        "title": "Meet Piyumi",
+        "description": "Get to know Piyumi, a Computer Science student at the University of Kelaniya."
       }
     }]
   }, {
