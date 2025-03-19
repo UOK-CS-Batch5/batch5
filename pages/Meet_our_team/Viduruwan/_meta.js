@@ -1,6 +1,5 @@
 const meta = {
-    me: "Y.P. Viduruwan",
-    about: "About Me",
-}
+  about: "About Me",
+};
 
 export default meta;
