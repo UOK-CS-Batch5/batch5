@@ -241,13 +241,6 @@ export const pageMap = [{
         "title": "About Viduruwan",
         "description": "Learn more about Viduruwan, a passionate Computer Science student at the University of Kelaniya."
       }
-    }, {
-      name: "me",
-      route: "/Meet_our_team/Viduruwan/me",
-      frontMatter: {
-        "title": "Viduruwan's Profile",
-        "description": "Learn more about Viduruwan, a passionate Computer Science student at UOK."
-      }
     }]
   }]
 }];

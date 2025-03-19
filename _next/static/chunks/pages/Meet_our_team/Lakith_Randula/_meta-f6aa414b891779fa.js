@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[339],{3002:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Lakith_Randula/_meta",function(){return u(7787)}])},7787:(_,e,u)=>{"use strict";u.r(e),u.d(e,{__N_SSG:()=>a,default:()=>t});var a=!0;let t=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[255,593,792],()=>e(3002)),_N_E=_.O()}]);

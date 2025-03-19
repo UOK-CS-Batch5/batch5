@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[636],{7954:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Viduruwan/page",function(){return u(987)}])}},_=>{var e=e=>_(_.s=e);_.O(0,[191,368,255,593,792],()=>e(7954)),_N_E=_.O()}]);
