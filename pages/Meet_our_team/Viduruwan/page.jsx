@@ -416,7 +416,7 @@ export default function About() {
               </ul>
             </motion.div>
             <div className="w-full border-t-2 border-gray-800 my-6 mt-8" />
-            <div className="text-start mb-2">
+            <div className="text-start mb-2 px-4 sm:px-0">
               {/* Section Title with Fade-in Animation */}
               <motion.p
                 className="text-2xl text-[#00FF9C] font-semibold"
@@ -427,14 +427,14 @@ export default function About() {
                 📬 Let's Connect!
               </motion.p>
 
-              <div className="flex justify-start space-x-8 mt-6">
+              <div className="flex flex-col sm:flex-row flex-wrap justify-start sm:space-x-4 md:space-x-6 lg:space-x-8 mt-6">
                 {[
                   {
                     href: "https://mail.google.com/mail/?view=cm&fs=1&to=ypviduruwan55@gmail.com",
                     imgSrc:
                       "https://img.icons8.com/ios-filled/50/FFFFFF/gmail.png",
                     alt: "Email",
-                    text: "ypviduruwan55@gmail.com",
+                    text: "Email",
                   },
                   {
                     href: "https://linkedin.com/in/y-p-viduruwan",
@@ -462,7 +462,7 @@ export default function About() {
                     key={index}
                     href={contact.href}
                     target="_blank"
-                    className="flex items-center space-x-2 hover:text-blue-400 hover:scale-105 transition-all duration-300"
+                    className="flex items-center space-x-2 hover:text-blue-400 hover:scale-105 transition-all duration-300 mb-3 sm:mb-2"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -474,7 +474,7 @@ export default function About() {
                       className="w-6 h-6 hover:scale-110 transition-all duration-300"
                       whileHover={{ scale: 1.2 }}
                     />
-                    <span className="text-white hover:text-gray-200">
+                    <span className="text-white hover:text-gray-200 text-sm md:text-base truncate">
                       {contact.text}
                     </span>
                   </motion.a>
