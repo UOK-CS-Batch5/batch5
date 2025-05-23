@@ -8,6 +8,7 @@ import Meet_our_team_Apeksha_meta from "../../../pages/Meet_our_team/Apeksha/_me
 import Meet_our_team_Chandima_Maduwantha_meta from "../../../pages/Meet_our_team/Chandima_Maduwantha/_meta.js";
 import Meet_our_team_Dehemi_Weerakoon_meta from "../../../pages/Meet_our_team/Dehemi_Weerakoon/_meta.js";
 import Meet_our_team_Dilshana_Ranawake_meta from "../../../pages/Meet_our_team/Dilshana_Ranawake/_meta.js";
+import Meet_our_team_Kasun_Chathuranga_meta from "../../../pages/Meet_our_team/Kasun_Chathuranga/_meta.js";
 import Meet_our_team_Lakith_Randula_meta from "../../../pages/Meet_our_team/Lakith_Randula/_meta.js";
 import Meet_our_team_Mihitha_Wanniarachchi_meta from "../../../pages/Meet_our_team/Mihitha_Wanniarachchi/_meta.js";
 import Meet_our_team_Pawan_Pinsara_meta from "../../../pages/Meet_our_team/Pawan_Pinsara/_meta.js";
@@ -136,6 +137,19 @@ export const pageMap = [{
       frontMatter: {
         "title": "About Dilshana",
         "description": "Learn more about Dilshana, a passionate Computer Science student at the University of Kelaniya."
+      }
+    }]
+  }, {
+    name: "Kasun_Chathuranga",
+    route: "/Meet_our_team/Kasun_Chathuranga",
+    children: [{
+      data: Meet_our_team_Kasun_Chathuranga_meta
+    }, {
+      name: "about",
+      route: "/Meet_our_team/Kasun_Chathuranga/about",
+      frontMatter: {
+        "title": "Meet Kasun Chathuranga",
+        "description": "Get to know Chathuranga, a Computer Science student at the University of Kelaniya."
       }
     }]
   }, {

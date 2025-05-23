@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[507],{5780:(_,e,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/Meet_our_team/Kasun_Chathuranga/_meta",function(){return u(6249)}])},6249:(_,e,u)=>{"use strict";u.r(e),u.d(e,{__N_SSG:()=>a,default:()=>n});var a=!0;let n=()=>null}},_=>{var e=e=>_(_.s=e);_.O(0,[255,593,792],()=>e(5780)),_N_E=_.O()}]);
